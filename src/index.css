@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🔥 Dark futuristic base */
+body {
+  @apply bg-gradient-to-br from-[#0f0c29] via-[#302b63] to-[#24243e] text-slate-100 antialiased;
+  font-family: "Titillium Web", sans-serif;
+}
+
+/* 🎨 Advanced gradient text */
+.text-gradient {
+  background: linear-gradient(to right, #00c6ff, #0072ff, #7f00ff, #e100ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ✨ Elegant glowing card */
+.card-glow {
+  @apply rounded-xl p-6 shadow-lg border border-white/10 bg-white/5 backdrop-blur-md hover:shadow-purple-500/20 transition;
+}
+
+/* 🟢 Frosted Glass Card */
+.card-glass {
+  @apply bg-white/10 border border-white/10 backdrop-blur-xl rounded-xl p-6 text-white shadow-lg hover:scale-105 transition-transform;
+}
+
+/* 🚀 Neon button */
+.btn-neon {
+  @apply px-6 py-2 rounded-full bg-gradient-to-r from-fuchsia-600 via-pink-500 to-red-500 text-white font-semibold shadow-lg hover:brightness-110 transition-all;
+}
+
+/* 🌈 Glowing border input field */
+.input-glow {
+  @apply bg-transparent border border-sky-400/60 text-white p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-fuchsia-500;
+}
