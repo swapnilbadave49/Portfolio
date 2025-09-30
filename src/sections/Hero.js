@@ -1,4 +1,4 @@
-import Image from "../Images/picswap.png";
+import Image from "../Images/Swap.jpg";
 import { Slide } from "react-awesome-reveal";
 import { Typewriter } from "react-simple-typewriter";
 import { Fade } from "react-awesome-reveal";

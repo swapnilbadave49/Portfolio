@@ -3,7 +3,7 @@ export const ProfileData = [
     name: "LeetCode",
     url: "https://leetcode.com/u/swapnilbadave007/",
     profile: "742nd in Biweekly Contest 141",
-    subtitle: "350+ problems solved",
+    subtitle: "450+ problems solved",
     icon: "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/64/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-shadow-tal-revivo.png",
   },
   {
@@ -24,7 +24,7 @@ export const ProfileData = [
     name: "GitHub",
     url: "https://github.com/swapnilbadave49",
     profile: "Full-stack & Open Source Dev",
-    subtitle: "10+ repositories | MERN",
+    subtitle: "30 repositories | MERN",
     icon: "https://img.icons8.com/material-outlined/48/ffffff/github.png",
   },
 ];
