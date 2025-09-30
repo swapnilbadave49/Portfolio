@@ -21,12 +21,12 @@ export const Project = [
     name: "MAILMIND",
     image: PIJET,
     desc: "An AI-powered email assistant that uses the Google Gemini API to summarize, categorize, and prioritize emails, enhancing productivity and organization for users.",
-    link: "https://rescue-bite.vercel.app/",
+    link: "https://github.com/swapnilbadave49/Email-Assistance",
   },
   {
     name: "RescueBite",
     image: Four,
     desc: " A full-stack web app enabling restaurants to donate unsold food daily, reducing food waste.",
-    link: "https://github.com/swapnilbadave49/Email-Assistance",
+    link: "https://rescue-bite.vercel.app/",
   }
 ];
